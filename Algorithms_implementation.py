@@ -1,7 +1,5 @@
 """ This file contains inplementations of the algorithms learned. Read this before interview along side your notes, to understand the implementation concretely."""
 
-from collections import defaultdict
-
 
 # Sorting Algorithms
 # Bubble sort : Runs multiple passes and arranges adjacent elements in the order until no swaps left to end the pass. Easiest, but O(n2).
