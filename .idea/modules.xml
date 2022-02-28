@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Coding Interview Preparation.iml" filepath="$PROJECT_DIR$/.idea/Coding Interview Preparation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../personal_projects/.idea/personal_projects.iml" filepath="$PROJECT_DIR$/../personal_projects/.idea/personal_projects.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/Master thesis/project_source_code/.idea/project_source_code.iml" filepath="$USER_HOME$/Desktop/Master thesis/project_source_code/.idea/project_source_code.iml" />
     </modules>
   </component>
 </project>

@@ -12,12 +12,12 @@ def two_sum(arr: List[int], target: int) -> List[int]:
     #             return [i, j]
     # Best solution is to iterate through just once. Here, logic is x + y = target, and find indices of x & y in list
     # change eq. slightly to pass just once instead of loop inside a loop. x = target - y. Track visited elements in a dict.
-    d = {}                              # create empty dict to track visited elements. Key is element, value is index in list
-    for i, v in enumerate(arr):         # loop just once
-        m = target - v                  # compute diff. to target
-        if m in d:                      # if that diff. in already visited elements
-            return [d[m], i]            # return indices of both elements
-        d[v] = i                        # else add visited element in the dict
+    d = {}  # create empty dict to track visited elements. Key is element, value is index in list
+    for i, v in enumerate(arr):  # loop just once
+        m = target - v  # compute diff. to target
+        if m in d:  # if that diff. in already visited elements
+            return [d[m], i]  # return indices of both elements
+        d[v] = i  # else add visited element in the dict
 
 
 """ Best Time to Buy and Sell Stock: You are given an array prices where prices[i] is the price of a given stock on the ith day.
@@ -58,18 +58,20 @@ def max_profit(prices: List[int]) -> int:
 
 """ Duplicate: Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
 https://leetcode.com/problems/contains-duplicate/"""
+
+
 # We can implement same methodology as two_sum and pass through the list just once. Create a dict & track visited elements. If element already in dict, true.
 # O(n) linear growth
 
 
 def duplicate(nums: List[int]) -> bool:
     # Your solution
-    t = []              # create a data structure to track
-    for i in nums:      # for element in nums, not index in range()
-        if i in t:      # if element in tracked list
+    t = []  # create a data structure to track
+    for i in nums:  # for element in nums, not index in range()
+        if i in t:  # if element in tracked list
             return True
-        t.append(i)     # else append it to tracked list
-    return False        # loop ends & no duplicate found, return False
+        t.append(i)  # else append it to tracked list
+    return False  # loop ends & no duplicate found, return False
     # One line better solution is to use set(). This will discard duplicates
     # return len(nums) != len(set(nums))
 
@@ -100,7 +102,7 @@ def product_except_self(nums: List[int]) -> List[int]:
     p = 1
     n = len(nums)
     output = []
-    for i in range(0, n):           # Compute product of elements before n (prefix products from left to right)
+    for i in range(0, n):  # Compute product of elements before n (prefix products from left to right)
         output.append(p)
         p = p * nums[i]
     p = 1
@@ -158,14 +160,14 @@ def max_product_sub_array(nums: List[int]) -> int:
     # Have two pointers max_prod & min_prod that track maximum & minimum values in an array. Read each element & if positive, all good.
     # If -ve, multiply it with these pointers, swap their values assuming min_product is already -ve. Solution inspired from https://www.youtube.com/watch?v=bpMDJ1rktmE
     max_prod, min_prod, result = nums[0], nums[0], nums[0]
-    for i in range(1, len(nums)):          # Traverse through the array from 1, as initial element already assigned
-        if nums[i] < 0:                 # if a -ve value, swap max & min
+    for i in range(1, len(nums)):  # Traverse through the array from 1, as initial element already assigned
+        if nums[i] < 0:  # if a -ve value, swap max & min
             tmp = min_prod
             min_prod = max_prod
             max_prod = tmp
         # max_prod becomes new number(after zero) if encountered a zero. Same for min_prod. This takes care of zero values.
-        max_prod = max(max_prod*nums[i], nums[i])
-        min_prod = min(min_prod*nums[i], nums[i])
+        max_prod = max(max_prod * nums[i], nums[i])
+        min_prod = min(min_prod * nums[i], nums[i])
         result = max(result, max_prod)
     return result
 
@@ -191,9 +193,7 @@ def search_rotated_sorted_array(nums: List[int], target: int) -> int:
         for i, v in enumerate(nums):
             if target == v:
                 return i
-    # Implementing personal solution via binary search. Fails obviously if rotated at a point. As we check target < nums[n], it should be on left.
-    # But since array is rotated at point, we will have decreasing elements even after some point in right, therefore suddenly decreasing at a point.
-    # Binary search works only if the array is sorted completely. e.g. fails in the above mentioned examples at value 0, as decreasing from 7 to 0.
+    # Binary search is an alternative, but only works on sorted arrays.
 
 
 """3Sum: Given an integer array nums, return all the triplets [nums[i], nums[j], nums[k]] such that i != j, i != k, and j != k, and nums[i] + nums[j] + nums[k] == 0.
@@ -210,7 +210,7 @@ Output: []
 """
 
 
-def _3sum(nums: List[int], target) -> List[int]:
+def _3sum(nums: List[int], target):
     # Brute force method to iterate thrice in O(n**3). Gets only one combination. Fails to get multiple combinations.
     # for i in range(len(nums)-2):
     #     for j in range(i+1, len(nums)-1):
@@ -220,40 +220,59 @@ def _3sum(nums: List[int], target) -> List[int]:
     #                 return [i, j, k]
     # return []
     """FAILS FOR NEGATIVE NUMBERS THOUGH.."""
+    # Working solution: https://leetcode.com/problems/3sum/discuss/7498/Python-solution-with-detailed-explanation
     # # Better optimized solution: Sort the array to increase efficiency to O(n2)
     # Similar thinking as two_sum(). x + y + z = 0, change it as x + y = - z. Track difference in a dict (value : index). Traverse through array twice in O(n2)
     # Sort the array first in increasing order
     # Start with first element in array. Keep two pointer left & right. Increment the left pointer to one position if sum < 0; else if sum > 0: decrement right pointer by 1 position
     # return sum (which is triplet = array[i] + array[left] + array[right] if its equal to our target sum
-    # Sort array
-    # nums.sort()
-    # Create two pointers to track left(j) and right(k) positions of remaining array from first element in triplet (i)
-    # for i in range(len(nums)-2):                    # traverse through entire array
-    #     left = i + 1                                # left pointer of remaining array
-    #     right = len(nums)-1                         # right pointer of remaining array
-    #     while left < right:                         # as long as we've remaining array size of at least 2
-    #         agg = nums[i] + nums[left] + nums[left]
-    #         if agg == target:                       # show triplets if total aggregation is same as our target value
-    #             return [nums[i], nums[left], nums[right]]
-    #         elif agg > target:                      # decrement right pointer by 1 if total aggregation is > target value
-    #             right -= 1
-    #         else:                                   # increment left pointer otherwise
-    #             left += 1                           # loop always finds triplets at line 236 as long as they exist. Else exit the loop.
-    # return []                                       # if no triplet found
-    """ FAILS FOR MULTIPLE TRIPLETS. BELOW IS A GOOD OPTIMAL APPROACH BY USING A DATA STRUCTURE (DICTIONARY / SET) TO TRACK VISITED ELEMENTS.
-    COMPUTING DIFFERENCE AS FOLLOWS : WE NEED X,Y,Z such that X + Y + Z = 0. JUST CHANGE IT TO X + Y = -Z. FIND -Z IN TRACKED ELEMENTS & RETRIEVE TRIPLETS"""
-    # # initialize an empty data structure to track the visited elements
-    # for i in range(len(nums)-1):
-    #     tracked = set()  # can use dictionary as well (key = element and value will is it's index)
-    #     current_sum = target - nums[i]
-    #     for j in range(i+1, len(nums)):
-    #         if current_sum - nums[j] in tracked:
-    #             return [nums[i], nums[j], current_sum-nums[j]]
-    #         # add it to tracked otherwise
-    #         tracked.add(nums[j])
+    nums.sort()
+    n, result = len(nums), []
+    for i in range(n):
+        if i > 0 and nums[i] == nums[i - 1]:  # We should avoid duplicates. Continues to next iteration
+            continue
+        target = nums[i] * -1  # Changing the sign
+        s, e = i + 1, n - 1  # remaining array pointers start (left), right (end)
+        while s < e:
+            if nums[s] + nums[e] == target:  # If triplet found, append it to list
+                result.append([nums[i], nums[s], nums[e]])
+                s = s + 1  # move to next index
+                while s < e and nums[s] == nums[s - 1]:  # avoids another duplicate after triplet
+                    s = s + 1
+            elif nums[s] + nums[e] < target:  # increment left by one if less than 0, else decrement right by one in remaining array
+                s = s + 1
+            else:
+                e = e - 1
+    return result
 
 
+"""Container with most water:
+You are given an integer array height of length n. There are n vertical lines drawn such that the two endpoints of the ith line are (i, 0) and (i, height[i]). Find two lines that together with the
+x-axis form a container, such that the container contains the most water. Return the maximum amount of water a container can store. Notice that you may not slant the container.
+https://leetcode.com/problems/container-with-most-water/
+"""
 
 
-
-
+def container_with_most_water(height: List[int]) -> int:
+    # Brute force solution: run two loops, for every element, compute area by checking the minimum value (limiting factor) otherwise water spills
+    # max_area = float('-inf')
+    # for i in range(len(height)):  # outer loop
+    #     for j in range(i + 1, len(height)):  # inner loop
+    #         limiting_factor = min(height[i], height[j])  # get minimum of both heights, coz of limiting factor (y-axis)
+    #         max_area = max(max_area, limiting_factor * (j - i))  # multiply min height with distance btwn i & j (x-axis), update max_area if > previous
+    # return max_area
+    # Brute force solution produces TLE - time limit exceeded
+    # Optimized solution:
+    # use a while loop: start with extreme end & beginning pointers, compute area
+    # decrement 1 step either sides, if next height is higher > previous both positions, move pointer
+    # compute areas & store if > max_area
+    start, end, max_area = 0, len(height) - 1, 0
+    while start < end:
+        if height[start] < height[end]:
+            area = height[start] * (end - start)
+            start += 1
+        else:
+            area = height[end] * (end - start)
+            end -= 1
+        max_area = max(max_area, area)
+    return max_area

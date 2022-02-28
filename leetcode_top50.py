@@ -193,5 +193,5 @@ if __name__ == '__main__':
     # prices = [7, 1, 5, 3, 6, 4] # [7,6,4,3,1]
     # print(max_profit(prices))
     #print(valid_anagram(s="anagram", t="nagaram"))
-    print(valid_parentheses(s="()[]{}"))
+    #print(valid_parentheses(s="()[]{}"))
 
