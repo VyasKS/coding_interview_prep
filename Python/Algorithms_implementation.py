@@ -5,7 +5,6 @@
 # Bubble sort : Runs multiple passes and arranges adjacent elements in the order until no swaps left to end the pass. Easiest, but O(n2).
 def bubble_sort(array):
     n = len(array)
-
     # Traverse through all array elements
     for i in range(n):
         # Last i elements are already in place
@@ -50,7 +49,7 @@ def merge_sort(array):
             array[k] = l[i]
             i += 1
             k += 1
-        while j < len(l):
+        while j < len(r):
             array[k] = r[j]
             j += 1
             k += 1
@@ -90,7 +89,7 @@ def binary_search(array, key):
         return None
     n = len(array) // 2  # int division to avoid float
     if key == array[n]:
-        return array[n]
+        return n
     if key > array[n]:  # if key is > nth position (mid), slice right part
         sliced = array[n + 1:]
     else:
@@ -99,8 +98,8 @@ def binary_search(array, key):
 
 
 # Driver code to check binary_search(array)
-# a = [64, 34, 25, 12, 22, 11, 90]
-# print(f'Input array is {a} and binary_search for array is {binary_search(array=a, key=90)}')
+a = [64, 34, 25, 12, 22, 11, 90]
+print(f'Input array is {a} and binary_search for array is {binary_search(array=a, key=90)}')
 
 
 """ Searching in Graphs"""

@@ -1,7 +1,8 @@
 """
 Valid Anagram
 Given two strings s and t, return true if t is an anagram of s, and false otherwise.
-An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once. https://leetcode.com/problems/valid-anagram/"""
+An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase,
+typically using all the original letters exactly once. https://leetcode.com/problems/valid-anagram/"""
 
 
 def valid_anagram(s: str, t: str) -> bool:
@@ -82,3 +83,28 @@ def valid_palindrome(s: str) -> bool:
         left += 1
         right -= 1
     return True                                                 # true in all other cases
+
+
+""" REVERSE A STRING WITHOUT USING SPLIT() METHOD IN PYTHON - ASKED IN A CODING INTERVIEW"""
+
+
+def reverse_a_string(big_string):
+    # Clean spaces with comma for separation
+    cleaned = []
+    for char in big_string:
+        if char == " ":
+            # print('Space found and splitting here')
+            # remove space and concatenate
+            i = big_string.index(char)       # get index position
+            cleaned.append(big_string[:i])  # append word until space in a new list
+            big_string = big_string[i+1:]   # update big_string
+            if " " in big_string:           # if still a space in the whole string exists
+                continue
+            else:                           # last word reached, add it to cleaned
+                cleaned.append(big_string)
+    reversed_string_array = cleaned[::-1]
+    final = ""
+    for word in reversed_string_array:
+        final = final+word+" "
+    return final
+

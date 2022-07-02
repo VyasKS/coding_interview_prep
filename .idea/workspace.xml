@@ -1,24 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ccafca85-bdf6-4480-9e41-0a2494aff978" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../personal_projects/Data Analytics/customer personality analysis/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../personal_projects/Data Analytics/customer personality analysis/src.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C++/Arrays/arrays.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C++/Arrays/arrays.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geeks4Geeks/arrays.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LC 50 most common qs/Arrays.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LC 50 most common qs/Strings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Coding Interview Preparation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Coding Interview Preparation.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blind 75 solutions/arrays.py" beforeDir="false" afterPath="$PROJECT_DIR$/Blind 75 solutions/arrays.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blind 75 solutions/dynamic_programming.py" beforeDir="false" afterPath="$PROJECT_DIR$/Blind 75 solutions/dynamic_programming.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms_implementation.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Blind 75 solutions/strings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Blind 75 solutions/strings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hackerrank_problem_solving.py" beforeDir="false" afterPath="$PROJECT_DIR$/hackerrank_problem_solving.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode_top50.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode_top50.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cracking_the_coding_interview.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug_problems.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hackerrank_problem_solving.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode_top50.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../personal_projects/Machine Learning &amp; Statistics/Bankruptcy_prediction/Bankruptcy_prediction.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../personal_projects/Machine Learning &amp; Statistics/Bankruptcy_prediction/Bankruptcy_prediction.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
@@ -26,8 +49,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -56,6 +79,11 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2022" />
+    <option name="minorVersion" value="1.1" />
+  </component>
   <component name="ProjectId" id="25HX35mqrpkAS3IDaGxwvLKwUUa" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -63,36 +91,20 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
-  <component name="RunManager" selected="Python.dynamic_programming">
-    <configuration name="01logit" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="project_source_code" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/Master thesis/project_source_code/source_files" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/Master thesis/project_source_code/source_files/01logit.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
+  <component name="RunManager" selected="Python.Strings">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="Algorithms_implementation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Algorithms_implementation (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Coding Interview Preparation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -100,12 +112,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithms_implementation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Algorithms_implementation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -114,7 +126,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dynamic_programming" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Arrays" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Coding Interview Preparation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -122,12 +134,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Blind 75 solutions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LC 50 most common qs" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Blind 75 solutions/dynamic_programming.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LC 50 most common qs/Arrays.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -136,20 +148,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="model_with_interactions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="project_source_code" />
+    <configuration name="Most Important Patterns" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Coding Interview Preparation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/Master thesis/project_source_code/source" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Goldman Sachs Coderpad" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/Master thesis/project_source_code/source/model_with_interactions.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Goldman Sachs Coderpad/Most Important Patterns.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,20 +170,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="preprocessor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="project_source_code" />
+    <configuration name="Strings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Coding Interview Preparation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/Master thesis/project_source_code/source" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LC 50 most common qs" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/Master thesis/project_source_code/source/preprocessor.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LC 50 most common qs/Strings.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -180,13 +192,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="leet_code_goldman_tag" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Coding Interview Preparation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Goldman Sachs Coderpad" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Goldman Sachs Coderpad/leet_code_goldman_tag.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Arrays" />
+      <item itemvalue="Python.Strings" />
+      <item itemvalue="Python.Algorithms_implementation (1)" />
+      <item itemvalue="Python.leet_code_goldman_tag" />
+      <item itemvalue="Python.Most Important Patterns" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.dynamic_programming" />
-        <item itemvalue="Python.Algorithms_implementation" />
-        <item itemvalue="Python.model_with_interactions" />
-        <item itemvalue="Python.01logit" />
-        <item itemvalue="Python.preprocessor" />
+        <item itemvalue="Python.Strings" />
+        <item itemvalue="Python.Most Important Patterns" />
+        <item itemvalue="Python.Arrays" />
+        <item itemvalue="Python.leet_code_goldman_tag" />
+        <item itemvalue="Python.Algorithms_implementation (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -216,6 +257,62 @@
       <workItem from="1645911666166" duration="1656000" />
       <workItem from="1645961374334" duration="6884000" />
       <workItem from="1646041984623" duration="830000" />
+      <workItem from="1646933836450" duration="938000" />
+      <workItem from="1646952345134" duration="269000" />
+      <workItem from="1646991063399" duration="1267000" />
+      <workItem from="1647081122209" duration="4385000" />
+      <workItem from="1647091868296" duration="1432000" />
+      <workItem from="1647869057455" duration="441000" />
+      <workItem from="1648131037826" duration="816000" />
+      <workItem from="1648141789163" duration="349000" />
+      <workItem from="1648463946593" duration="60000" />
+      <workItem from="1649499096492" duration="123000" />
+      <workItem from="1649536436008" duration="1388000" />
+      <workItem from="1649604041332" duration="517000" />
+      <workItem from="1649608697534" duration="144000" />
+      <workItem from="1649761487592" duration="771000" />
+      <workItem from="1649767195048" duration="751000" />
+      <workItem from="1649768244416" duration="80000" />
+      <workItem from="1649845850842" duration="30000" />
+      <workItem from="1650578537255" duration="48000" />
+      <workItem from="1650578802434" duration="5000" />
+      <workItem from="1650578944771" duration="235000" />
+      <workItem from="1650746215769" duration="5407000" />
+      <workItem from="1650903180554" duration="1710000" />
+      <workItem from="1651011765946" duration="609000" />
+      <workItem from="1651070355599" duration="290000" />
+      <workItem from="1651074317405" duration="1117000" />
+      <workItem from="1651476675377" duration="977000" />
+      <workItem from="1651777273311" duration="1386000" />
+      <workItem from="1651810487450" duration="1075000" />
+      <workItem from="1651863962992" duration="24000" />
+      <workItem from="1652083743632" duration="143000" />
+      <workItem from="1652107377344" duration="110000" />
+      <workItem from="1652370744722" duration="1306000" />
+      <workItem from="1652995831607" duration="145000" />
+      <workItem from="1653087257045" duration="317000" />
+      <workItem from="1653088934400" duration="646000" />
+      <workItem from="1653387033824" duration="1714000" />
+      <workItem from="1653391163104" duration="963000" />
+      <workItem from="1653411470462" duration="1077000" />
+      <workItem from="1653460276084" duration="5486000" />
+      <workItem from="1653744102167" duration="129000" />
+      <workItem from="1654158523435" duration="1661000" />
+      <workItem from="1654350406130" duration="898000" />
+      <workItem from="1654361954175" duration="237000" />
+      <workItem from="1654385354234" duration="1409000" />
+      <workItem from="1654644562198" duration="2832000" />
+      <workItem from="1654692457147" duration="203000" />
+      <workItem from="1654695504017" duration="166000" />
+      <workItem from="1654893789885" duration="6000" />
+      <workItem from="1654998969090" duration="420000" />
+      <workItem from="1655009971439" duration="805000" />
+      <workItem from="1655055857164" duration="1086000" />
+      <workItem from="1655725536656" duration="3956000" />
+      <workItem from="1655782882609" duration="3705000" />
+      <workItem from="1655815832284" duration="464000" />
+      <workItem from="1656058748087" duration="261000" />
+      <workItem from="1656070734991" duration="1142000" />
     </task>
     <servers />
   </component>
@@ -239,13 +336,17 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/pandas" />
+    </ignored-roots>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Coding_Interview_Preparation$preprocessor.coverage" NAME="preprocessor Coverage Results" MODIFIED="1645322014559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/Master thesis/project_source_code/source" />
-    <SUITE FILE_PATH="coverage/Coding_Interview_Preparation$model_with_interactions.coverage" NAME="model_with_interactions Coverage Results" MODIFIED="1645663386249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/Master thesis/project_source_code/source" />
-    <SUITE FILE_PATH="coverage/Coding_Interview_Preparation$01logit.coverage" NAME="01logit Coverage Results" MODIFIED="1645661043400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/Master thesis/project_source_code/source_files" />
-    <SUITE FILE_PATH="coverage/Coding_Interview_Preparation$Algorithms_implementation.coverage" NAME="Algorithms_implementation Coverage Results" MODIFIED="1645911996666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Coding_Interview_Preparation$interactions.coverage" NAME="interactions Coverage Results" MODIFIED="1645197706766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/Master thesis/project_source_code/source" />
-    <SUITE FILE_PATH="coverage/Coding_Interview_Preparation$dynamic_programming.coverage" NAME="dynamic_programming Coverage Results" MODIFIED="1645973071903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Blind 75 solutions" />
-    <SUITE FILE_PATH="coverage/Coding_Interview_Preparation$interactions_practice.coverage" NAME="interactions_practice Coverage Results" MODIFIED="1645217918245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/Master thesis/project_source_code/test" />
+    <SUITE FILE_PATH="coverage/Coding_interview_prep$leet_code_goldman_tag.coverage" NAME="leet_code_goldman_tag Coverage Results" MODIFIED="1654385845080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Goldman Sachs Coderpad" />
+    <SUITE FILE_PATH="coverage/Coding_interview_prep$Algorithms_implementation__1_.coverage" NAME="Algorithms_implementation (1) Coverage Results" MODIFIED="1653463975192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python" />
+    <SUITE FILE_PATH="coverage/Coding_interview_prep$Arrays.coverage" NAME="Arrays Coverage Results" MODIFIED="1654646642768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LC 50 most common qs" />
+    <SUITE FILE_PATH="coverage/Coding_interview_prep$Most_Important_Patterns.coverage" NAME="Most Important Patterns Coverage Results" MODIFIED="1655789782776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Goldman Sachs Coderpad" />
+    <SUITE FILE_PATH="coverage/Coding_interview_prep$Strings.coverage" NAME="Strings Coverage Results" MODIFIED="1656071277007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LC 50 most common qs" />
   </component>
 </project>

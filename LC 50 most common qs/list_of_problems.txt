@@ -1,0 +1,80 @@
+"""
+Arrays and Strings
+"""
+1. Two Sum = solved
+2. Two Sum II - Input array is sorted = pending (choose between two pointers & iterative approaches)
+3. Two Sum III - Data Structure design = pending
+4. Valid Palindrome = solved
+5. Reverse words in a string =
+6. Reverse words in a string II
+7. String to integer (AtoI)
+8. Valid Number
+9. Longest substring without repeating characters
+10. Longest substring with at most two distinct characters
+11. Missing ranges
+12. Longest palindromic substring
+13. One edit distance
+14. Read n characters given Read4
+15. Read n characters given Read4 - call multiple times
+
+"""
+Math
+"""
+16. Reverse integer
+17. Plus One
+18. Palindrome Number
+
+"""
+Linked List
+"""
+19. Merge two sorted lists
+20. Add two numbers
+21. Swap nodes in pairs
+22. Merge k sorted linked lists
+
+"""
+Binary Tree
+"""
+23. Validate binary search tree
+24. Maximum depth of binary tree
+25. Minimum depth of binary tree
+26. Balanced binary tree
+27. Convert sorted array to balanced binary search tree
+28. Convert sorted list to balanced binary search tree
+29. Binary tree upside down
+
+"""
+Bit Manipulation
+"""
+30. Single number
+31. Single number II
+
+"""
+Miscellaneous
+"""
+32. Integer to Roman
+33. Roman to Integer
+
+"""
+Stacks
+"""
+34. Min stack
+35. Evaluate reverse polish notation
+36. Valid parentheses
+
+"""
+Dynamic Programming
+"""
+37. Climbing stairs
+38. Unique paths
+39. Unique paths II
+40. Maximum sum sub array
+41. Maximum product sub array
+42. Coins in a line
+
+"""
+Binary Search
+"""
+43. Search insert position
+44. Find minimum in rotated sorted array
+45. Find minimum in rotated sorted array II - with duplicates
